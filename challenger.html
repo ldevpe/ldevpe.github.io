@@ -165,10 +165,10 @@
     x_date += x_month;
     x_date += "/";
     x_date += x_day;
-  //  document.getElementById("timer_down").innerHTML = x_date;
-    document.getElementById("my_countdown_setter").setAttribute('data_due_date',"2019/10/20");
+   document.getElementById("timer_down").innerHTML = x_date;
+    document.getElementById("my_countdown_setter").setAttribute('data_due_date',"2019/11/10");
     x_date += " - IST";
-   // document.getElementById("my_header").innerHTML = x_date;
+    document.getElementById("my_header").innerHTML = x_date;
     
     var ans = "";
     if(x_month  == 1)
@@ -225,7 +225,7 @@
     document.getElementById("timer_down").innerHTML = ans;
     // Jan 5, 2021 15:37:25
      
-     var countDownDate = new Date(ans).getTime();
+     var countDownDate = new Date("Nov 10, 2021 00:00:01").getTime();
      
      var x = setInterval(function() {
   
